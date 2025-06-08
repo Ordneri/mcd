@@ -27,7 +27,9 @@ Use ". mcd NewDirName" to create and change to this directory.
 
 
 BASH:
+```bash
 rm -f $PREFIX/bin/mcd
+```
 
 
 ## Note
