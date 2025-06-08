@@ -1,2 +1,2 @@
 # mcd
-Make and create directory on linux,combined mkdir 
+Make and create directory on linux,combined mkdir and cd.
