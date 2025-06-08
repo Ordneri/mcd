@@ -15,12 +15,13 @@ curl -sSL -o mcd.temp https://raw.githubusercontent.com/Ordneri/mcd/main/mcd && 
 ```
 
 ## Usage
+
+
 Use ". mcd NewDirName" to create and change to this directory.
 **Note add dot and space at beginning.**
 ```
 . mcd NewDirName
 ```
-##
 
 ## Uninstall
 
@@ -28,4 +29,8 @@ Use ". mcd NewDirName" to create and change to this directory.
 BASH:
 rm -f $PREFIX/bin/mcd
 
-##
+
+## Note
+
+
+mcd only tested on Termux.
