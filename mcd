@@ -1,0 +1,17 @@
+if [ "$1" =  "" ];then
+ echo "Usage : \". mcd CreateDirName\""
+elif [ -d "$1" ];then
+ if [ ${0:0-4:4} != "bash" ];then
+  echo "Directory already exist,can not change directory,use \". mcd CreateDirName\" instead next time."
+ else
+  echo "dir \"$1\" already exist,execute \"cd $1\"."
+  cd $1
+ fi
+else
+ mkdir $1
+ if [ ${0:0-4:4} != "bash" ];then
+  echo "Directory created,however can not change directory,use \". mcd CreateDirName\" instead next time."
+ else
+  cd $1
+  fi
+fi
