@@ -35,4 +35,4 @@ rm -f $PREFIX/bin/mcd
 ## Note
 
 
-为我只在Termux上面测试过，嘿嘿嘿。
+我只在Termux上面测试过，嘿嘿嘿。
